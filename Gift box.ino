@@ -1,17 +1,17 @@
-#include "Arduino.h"
-#include "HallA1302.h"
-#include "AnalogReader.h"
-#include "Adafruit_GFX.h"
-#include "Adafruit_PCD8544.h"
-#include "TimerFreeTone.h"
-#include "Speaker.h"
+include "Arduino.h"
+include "HallA1302.h"
+include "AnalogReader.h"
+include "Adafruit_GFX.h"
+include "Adafruit_PCD8544.h"
+include "TimerFreeTone.h"
+include "Speaker.h"
 
 
-#define HALLA_PIN_VOUT	A3
-#define NOKIALCD_PIN_DC	4
-#define NOKIALCD_PIN_CS	2
-#define NOKIALCD_PIN_RST	3
-#define PIEZOSPEAKER_PIN_SIG	5
+define HALLA_PIN_VOUT	A3
+define NOKIALCD_PIN_DC	4
+define NOKIALCD_PIN_CS	2
+define NOKIALCD_PIN_RST	3
+define PIEZOSPEAKER_PIN_SIG	5
 
 //define Nokia LCD contrast and dimentions(in pixels)
 #define LCD_CONTRAST 70
