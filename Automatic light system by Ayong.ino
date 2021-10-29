@@ -1,10 +1,10 @@
-byte ldr = A2;
-byte led = 13;
+byte ldr = A4;
+byte led = 15;
 int nilai;
 
 void setup() {
   pinMode(led, OUTPUT);
-  Serial.begin(9600);
+  Serial.begin(115200);
 }
 
 void loop() {
