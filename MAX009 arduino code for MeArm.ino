@@ -13,16 +13,16 @@ String lineBuffer;
 int button1PreviousState=HIGH;
 int button2PreviousState=HIGH;
 
-// action state :
-// 0 : stop
-// 1 : turn left
-// 2 : turn right
-// 3 : go forward
-// 4 : go backward
-// 5 : go up
-// 6 : go down
-// 7 : open
-// 8 : close
+ action state :
+ 0 : stop
+ 1 : turn left
+ 2 : turn right
+ 3 : go forward
+ 4 : go backward
+ 5 : go up
+ 6 : go down
+ 7 : open
+ 8 : close
 int state=0;  
 
 void setup() {
