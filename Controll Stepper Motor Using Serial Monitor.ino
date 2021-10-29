@@ -1,7 +1,7 @@
 // defines pins numbers
-#define stepPinX  2  
-#define dirPinX  5 
-#define endPin  8
+define stepPinX  2  
+define dirPinX  5 
+define endPin  8
 
 int ang = 0;
 //for the delay
