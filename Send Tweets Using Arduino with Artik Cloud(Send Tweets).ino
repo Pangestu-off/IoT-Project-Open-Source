@@ -1,7 +1,7 @@
 #libraries
-import tweepy 
-import time 
-import serial
+#import tweepy 
+#import time 
+#import serial
 
 ser = serial.Serial("COM5", 9600)  #change 'COM5' to your serial port used in your arduino IDE
 while(1):
