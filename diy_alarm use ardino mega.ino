@@ -1,8 +1,8 @@
-#include "Time.h"
-#include <EEPROM.h>
-#include <LCD.h>
-#include <LiquidCrystal_I2C.h>
-#include <IRremote.h>//IR remote library
+include "Time.h"
+include <EEPROM.h>
+include <LCD.h>
+include <LiquidCrystal_I2C.h>
+include <IRremote.h>//IR remote library
 
 LiquidCrystal_I2C lcd(0x3f, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // Set the LCD I2C address
 
