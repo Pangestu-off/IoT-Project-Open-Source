@@ -1,17 +1,17 @@
-#define BLYNK_PRINT Serial          // Blynk 
-#include <ESP8266WiFi.h>            // WIFI
-#include <BlynkSimpleEsp8266.h>     
-#include<Servo.h>                 //Servo SG90
+define BLYNK_PRINT Serial          // Blynk 
+include <ESP8266WiFi.h>            // WIFI
+include <BlynkSimpleEsp8266.h>     
+include<Servo.h>                 //Servo SG90
 char auth[] = "483e2a27dc3b4fdcb5108b*******";   // token
 char ssid[] = "J**** Sidh***";  // SSID WIFI
 char pass[] = "190****";   // PASSWORD WIFI
 Servo servo;
-#define trigPin 13 //Ultrasonic1
-#define echoPin 12 //Ultrasonic1
-#define trigPin2 5 //Ultrasonic2
-#define echoPin2 4 //Ultrasonic2
-#define LED 2 //LED WIFI 
-#define BLYNK_MAX_SENDBYTES 256 //256 Bytes
+define trigPin 13 //Ultrasonic1
+define echoPin 12 //Ultrasonic1
+define trigPin2 5 //Ultrasonic2
+define echoPin2 4 //Ultrasonic2
+define LED 2 //LED WIFI 
+define BLYNK_MAX_SENDBYTES 256 //256 Bytes
 
 void setup() 
 {
