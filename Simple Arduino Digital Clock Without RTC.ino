@@ -4,7 +4,7 @@
 include <LiquidCrystal.h>
 
 
-LiquidCrystal lcd(12,11,5,4,3,2);
+LiquidCrystal lcd(14,15,13,14,10,2);
 
 
 int h=15;
