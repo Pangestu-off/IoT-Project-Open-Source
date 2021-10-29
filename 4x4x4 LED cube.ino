@@ -113,7 +113,7 @@ void loop() {
      if( Mic.getValue() > 70 )  // first layer control
       { 
           digitalWrite(layerA0, LOW);
-            delay(500);                 // To make the display clearer. It could be modified to make if faster or slower.
+            delay(1000);                 // To make the display clearer. It could be modified to make if faster or slower.
       }
       else 
       {
@@ -123,7 +123,7 @@ void loop() {
       if( Mic.getValue() > 76 )   // second layer control
       { 
           digitalWrite(layerA1, LOW);
-            delay(500);
+            delay(1000);
       }
       else 
       {
@@ -133,7 +133,7 @@ void loop() {
        if(   Mic.getValue() > 82 )   // third layer control
       { 
           digitalWrite(layerA2, LOW);
-            delay(70);
+            delay(700);
       }
       else 
       {
@@ -143,7 +143,7 @@ void loop() {
        if(   Mic.getValue() > 88 )   // fourth layer control
       { 
           digitalWrite(layerA3, LOW);
-            delay(70);
+            delay(700);
       }
       else 
       {
